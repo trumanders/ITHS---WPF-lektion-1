@@ -40,7 +40,7 @@
         <TextBlock Grid.Column="1" Grid.Row="3" Text="Email" FontSize="20" />
         <TextBox x:Name="txt_email" Grid.Column="2" Grid.Row="3" Width="200" FontSize="15" Grid.ColumnSpan="2" HorizontalAlignment="Left" />
 
-        <Button x:Name="btn_run" Content="Run" Grid.Column="1" Grid.Row="4" Height="30" Width="100" Margin="0,0,20,10" FontSize="15" Click="btn_run_Click" HorizontalAlignment="Center"/>
+        <Button x:Name="btn_add" Content="Add" Grid.Column="1" Grid.Row="4" Height="30" Width="100" Margin="0,0,20,10" FontSize="15" Click="btn_add_Click" HorizontalAlignment="Center"/>
         <Button x:Name="btn_toggleFileContent" Content="Show saved" Grid.Column="1" Grid.Row="5" Height="30" Width="100" Margin="0,0,20,10" FontSize="15" Click="btn_toggleFileContent_Click" HorizontalAlignment="Center"/>
         <Button x:Name="btn_save" Content="Save" Grid.Column="1" Grid.Row="6" Height="30" Width="100" Margin="0,0,20,10" FontSize="15" Click="btn_save_Click" HorizontalAlignment="Center"/>
         <Label x:Name="lbl_info" Grid.Row="4" Grid.Column="2" FontSize="15" Margin="0,20,0,0" Grid.ColumnSpan="2" Grid.RowSpan="6" />

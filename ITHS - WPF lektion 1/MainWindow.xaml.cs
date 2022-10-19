@@ -42,7 +42,7 @@ namespace ITHS___WPF_lektion_1
 
 
         // Add entered info to List
-        private void btn_run_Click(object sender, RoutedEventArgs e)
+        private void btn_add_Click(object sender, RoutedEventArgs e)
         {
             if (ValidateAndAddInfoToList())
             {
